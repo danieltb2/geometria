@@ -1,10 +1,10 @@
 
-public class Circulo extends FiguraGeometrica {
+public class Circulo_dtb extends FiguraGeometrica_dtb {
 	private double radio;
 	//Constante pi
 	static final double PI = 3.1416;
 	
-	public Circulo(double r, String tipoFigura) {
+	public Circulo_dtb(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
 	}
@@ -15,7 +15,7 @@ public class Circulo extends FiguraGeometrica {
 
 	}
 	
-	@Override
+	@Override   
 	public double perimetro() {
 		return radio * 2 * PI;
 	}
