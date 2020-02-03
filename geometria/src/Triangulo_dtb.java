@@ -23,7 +23,5 @@ public class Triangulo_dtb extends FiguraGeometrica_dtb {
 		return Math.sqrt(sp * (sp-lado1) * (sp-lado2) * (sp-lado3));
 	}
 	
-	public double semiPerimetro() {
-		return this.perimetro() / 2;
-	}
+	
 }
