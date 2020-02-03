@@ -6,6 +6,7 @@ public class Circulo_dtb extends FiguraGeometrica_dtb {
 	
 	public Circulo_dtb(double r, String tipoFigura) {
 		super(tipoFigura);
+		if(r<0) {r=r*-1;}
 		radio = r;
 	}
 
